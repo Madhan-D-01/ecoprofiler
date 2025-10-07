@@ -1,0 +1,134 @@
+2025-10-05 12:12:48,018 - EcoProfiler - INFO - [cli_runner.py:50] - Starting EcoProfiler analysis for: Congo
+2025-10-05 12:12:48,511 - RedditScraper - INFO - [reddit_scraper.py:37] - Reddit APIs initialized successfully
+2025-10-05 12:12:48,511 - EcoProfiler - INFO - [cli_runner.py:74] - Step 1: Fetching GLAD forest loss alerts
+2025-10-05 12:12:48,527 - GLADAlerts - INFO - [fetch_glad_alerts.py:20] - GLAD_FETCH_STARTED - Lat: -4.0383, Lon: 21.7587, Radius: 40km
+2025-10-05 12:12:48,543 - GLADAlerts - INFO - [fetch_glad_alerts.py:29] - GLAD_FETCH_SUCCESS - Found 14 alerts
+2025-10-05 12:12:48,574 - GLADAlerts - INFO - [fetch_glad_alerts.py:99] - GLAD_OUTPUT_SAVED: data\alerts\Congo_glad.csv
+2025-10-05 12:12:48,581 - EcoProfiler - INFO - [cli_runner.py:80] - Step 2: Searching company registries
+2025-10-05 12:12:48,581 - CompanyRegistry - INFO - [registry_search.py:21] - Starting Wikidata company search
+2025-10-05 12:13:40,949 - CompanyRegistry - INFO - [registry_search.py:83] - WIKIDATA_QUERY_SUCCESS - Found 20 companies
+2025-10-05 12:13:40,949 - CompanyRegistry - INFO - [registry_search.py:26] - Starting GLEIF LEI resolution
+2025-10-05 12:14:02,473 - CompanyRegistry - INFO - [registry_search.py:30] - Starting OpenSanctions screening
+2025-10-05 12:14:03,119 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Q20427814: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Q20427814&dataset=all
+2025-10-05 12:14:03,614 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for We Can Be Winners: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=We+Can+Be+Winners&dataset=all
+2025-10-05 12:14:04,105 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for East Asian Community: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=East+Asian+Community&dataset=all
+2025-10-05 12:14:04,612 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for MNC Group: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=MNC+Group&dataset=all
+2025-10-05 12:14:05,107 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Correctional Institution in Indonesia: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Correctional+Institution+in+Indonesia&dataset=all
+2025-10-05 12:14:05,617 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Maros Railway Workshop: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Maros+Railway+Workshop&dataset=all
+2025-10-05 12:14:06,091 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Center for Indonesia’s Strategic Development Initiatives: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Center+for+Indonesia%E2%80%99s+Strategic+Development+Initiatives&dataset=all
+2025-10-05 12:14:06,613 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Izzah TV: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Izzah+TV&dataset=all
+2025-10-05 12:14:07,112 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Voice of Indonesia: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Voice+of+Indonesia&dataset=all
+2025-10-05 12:14:07,579 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Blooming Lotus Yoga: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Blooming+Lotus+Yoga&dataset=all
+2025-10-05 12:14:08,055 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Bank Central Asia: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Bank+Central+Asia&dataset=all
+2025-10-05 12:14:08,513 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Bank Central Asia: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Bank+Central+Asia&dataset=all
+2025-10-05 12:14:09,003 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Bank Mandiri: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Bank+Mandiri&dataset=all
+2025-10-05 12:14:09,527 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Bank Mandiri: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Bank+Mandiri&dataset=all
+2025-10-05 12:14:10,046 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Bank Mandiri: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Bank+Mandiri&dataset=all
+2025-10-05 12:14:10,566 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for IFCC-KSK: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=IFCC-KSK&dataset=all
+2025-10-05 12:14:11,074 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Indonesian Halal Authority: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Indonesian+Halal+Authority&dataset=all
+2025-10-05 12:14:11,578 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Bank Indonesia: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Bank+Indonesia&dataset=all
+2025-10-05 12:14:12,108 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for Haga Bank: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=Haga+Bank&dataset=all
+2025-10-05 12:14:12,559 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for DENIS: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=DENIS&dataset=all
+2025-10-05 12:14:12,565 - CompanyRegistry - INFO - [registry_search.py:34] - Starting OSM business search
+2025-10-05 12:14:13,352 - CompanyRegistry - INFO - [registry_search.py:218] - OSM_QUERY_SENT - OSM_RESULT_COUNT:0
+2025-10-05 12:14:13,352 - CompanyRegistry - INFO - [registry_search.py:37] - COMPANY_SEARCH_COMPLETE - Found 20 companies, 0 OSM businesses
+2025-10-05 12:14:13,383 - CompanyRegistry - INFO - [registry_search.py:277] - COMPANY_DATA_SAVED - Companies: data\companies\Congo_companies.json, OSM: data\companies\Congo_osm.json
+2025-10-05 12:14:13,395 - EcoProfiler - INFO - [cli_runner.py:85] - Step 3: Scraping Reddit for environmental discussions
+2025-10-05 12:14:13,399 - RedditScraper - INFO - [reddit_scraper.py:45] - Starting Reddit search for: Congo
+2025-10-05 12:14:13,399 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: Congo
+2025-10-05 12:14:15,339 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:14:15,347 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:14:15,351 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:14:15,353 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: Congo
+2025-10-05 12:14:15,364 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: Congo
+2025-10-05 12:14:21,602 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 1 posts
+2025-10-05 12:14:22,603 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: Indonesia environment
+2025-10-05 12:14:24,399 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:14:24,399 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:14:24,399 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:14:24,399 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: Indonesia environment
+2025-10-05 12:14:24,409 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: Indonesia environment
+2025-10-05 12:14:30,641 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:14:31,654 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: Sumatra forest
+2025-10-05 12:14:33,546 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:14:33,546 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:14:33,560 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:14:33,562 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: Sumatra forest
+2025-10-05 12:14:33,563 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: Sumatra forest
+2025-10-05 12:14:39,488 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:14:40,498 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: palm oil Congo
+2025-10-05 12:14:42,242 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:14:42,242 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:14:42,257 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:14:42,259 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: palm oil Congo
+2025-10-05 12:14:42,259 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: palm oil Congo
+2025-10-05 12:14:48,157 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:14:49,166 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: deforestation Indonesia
+2025-10-05 12:14:50,998 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:14:50,998 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:14:50,998 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:14:50,998 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: deforestation Indonesia
+2025-10-05 12:14:50,998 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: deforestation Indonesia
+2025-10-05 12:14:56,610 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:14:57,619 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: climate change Congo
+2025-10-05 12:14:59,217 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:14:59,217 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:14:59,233 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:14:59,238 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: climate change Congo
+2025-10-05 12:14:59,238 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: climate change Congo
+2025-10-05 12:15:05,563 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 2 posts
+2025-10-05 12:15:06,566 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: wildlife Congo
+2025-10-05 12:15:07,897 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:15:07,897 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:15:07,902 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:15:07,902 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: wildlife Congo
+2025-10-05 12:15:07,902 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: wildlife Congo
+2025-10-05 12:15:13,754 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:15:14,768 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: conservation Congo
+2025-10-05 12:15:15,973 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:15:15,973 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:15:15,973 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:15:15,973 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: conservation Congo
+2025-10-05 12:15:15,973 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: conservation Congo
+2025-10-05 12:15:21,538 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:15:22,555 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: rainforest Congo
+2025-10-05 12:15:25,813 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:15:25,813 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:15:25,813 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:15:25,813 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: rainforest Congo
+2025-10-05 12:15:25,829 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: rainforest Congo
+2025-10-05 12:15:31,434 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:15:32,449 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: biodiversity Congo
+2025-10-05 12:15:34,268 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:15:34,268 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:15:34,277 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:15:34,279 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: biodiversity Congo
+2025-10-05 12:15:34,281 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: biodiversity Congo
+2025-10-05 12:15:39,969 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:15:40,974 - RedditScraper - INFO - [reddit_scraper.py:85] - Enriching posts with PRAW
+2025-10-05 12:15:48,966 - RedditScraper - INFO - [reddit_scraper.py:239] - PRAW_ENRICH_SUCCESS - Enriched 3 posts
+2025-10-05 12:15:48,966 - RedditScraper - INFO - [reddit_scraper.py:89] - Analyzing post sentiment
+2025-10-05 12:15:49,172 - RedditScraper - INFO - [reddit_scraper.py:92] - REDDIT_SEARCH_COMPLETE - Found 3 unique posts
+2025-10-05 12:15:49,184 - RedditScraper - INFO - [reddit_scraper.py:373] - REDDIT_DATA_SAVED: data\reddit\Congo_praw_enriched.json
+2025-10-05 12:15:49,184 - EcoProfiler - INFO - [cli_runner.py:92] - Step 4: Fetching satellite imagery
+2025-10-05 12:15:49,184 - EcoProfiler - INFO - [cli_runner.py:96] - Using real Sentinel Hub API for satellite imagery
+2025-10-05 12:15:49,189 - SatelliteFetcher - INFO - [satellite_fetch.py:45] - Sentinel Hub credentials loaded successfully
+2025-10-05 12:15:49,189 - SatelliteFetcher - INFO - [satellite_fetch.py:50] - SENTINEL_FETCH_STARTED - Region: Congo
+2025-10-05 12:15:49,250 - SatelliteFetcher - INFO - [satellite_fetch.py:99] - True color image size: (398, 1593)
+2025-10-05 12:15:49,250 - SatelliteFetcher - INFO - [satellite_fetch.py:127] - Fetching true color imagery from 2025-09-05 to 2025-10-05
+2025-10-05 12:15:49,440 - SatelliteFetcher - INFO - [satellite_fetch.py:148] - Downloading true color image...
+2025-10-05 12:15:52,886 - SatelliteFetcher - INFO - [satellite_fetch.py:313] - True Color image with legend saved: data\satellite\Congo\Congo_truecolor_20251005_121552.png
+2025-10-05 12:15:52,886 - SatelliteFetcher - INFO - [satellite_fetch.py:164] - True color image saved: data\satellite\Congo\Congo_truecolor_20251005_121552.png
+2025-10-05 12:15:52,889 - SatelliteFetcher - INFO - [satellite_fetch.py:176] - NDVI image size: (398, 1593)
+2025-10-05 12:15:52,890 - SatelliteFetcher - INFO - [satellite_fetch.py:213] - Fetching NDVI imagery from 2025-09-05 to 2025-10-05
+2025-10-05 12:15:52,892 - SatelliteFetcher - INFO - [satellite_fetch.py:234] - Downloading NDVI image...
+2025-10-05 12:15:56,055 - SatelliteFetcher - INFO - [satellite_fetch.py:313] - NDVI Vegetation Index image with legend saved: data\satellite\Congo\Congo_ndvi_20251005_121554.png
+2025-10-05 12:15:56,065 - SatelliteFetcher - INFO - [satellite_fetch.py:250] - NDVI image saved: data\satellite\Congo\Congo_ndvi_20251005_121554.png
+2025-10-05 12:15:56,068 - SatelliteFetcher - INFO - [satellite_fetch.py:74] - SENTINEL_FETCH_SUCCESS - Downloaded 2 real satellite images
+2025-10-05 12:15:56,068 - EcoProfiler - INFO - [cli_runner.py:105] - Real satellite imagery downloaded: 2 files
+2025-10-05 12:15:56,070 - EcoProfiler - INFO - [cli_runner.py:116] - Satellite imagery: 2 files downloaded
+2025-10-05 12:15:56,071 - EcoProfiler - INFO - [cli_runner.py:120] - Step 5: Generating PDF report
+2025-10-05 12:15:56,073 - PDFGenerator - INFO - [generate_pdf.py:79] - Starting PDF report generation for Congo
+2025-10-05 12:15:56,148 - PDFGenerator - INFO - [generate_pdf.py:126] - PDF_REPORT_GENERATED: data\reports\Congo_report_20251005_121556.pdf
+2025-10-05 12:15:56,148 - EcoProfiler - INFO - [cli_runner.py:123] - PDF report generated: data\reports\Congo_report_20251005_121556.pdf
+2025-10-05 12:15:56,148 - EcoProfiler - INFO - [cli_runner.py:127] - EcoProfiler analysis complete for Congo

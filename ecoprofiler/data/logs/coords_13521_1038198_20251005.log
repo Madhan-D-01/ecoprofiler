@@ -1,0 +1,101 @@
+2025-10-05 12:18:37,233 - EcoProfiler - INFO - [cli_runner.py:50] - Starting EcoProfiler analysis for: coords_13521_1038198
+2025-10-05 12:18:37,233 - RedditScraper - INFO - [reddit_scraper.py:37] - Reddit APIs initialized successfully
+2025-10-05 12:18:37,233 - EcoProfiler - INFO - [cli_runner.py:74] - Step 1: Fetching GLAD forest loss alerts
+2025-10-05 12:18:37,233 - GLADAlerts - INFO - [fetch_glad_alerts.py:20] - GLAD_FETCH_STARTED - Lat: 1.3521, Lon: 103.8198, Radius: 10km
+2025-10-05 12:18:37,249 - GLADAlerts - INFO - [fetch_glad_alerts.py:29] - GLAD_FETCH_SUCCESS - Found 11 alerts
+2025-10-05 12:18:37,266 - GLADAlerts - INFO - [fetch_glad_alerts.py:99] - GLAD_OUTPUT_SAVED: data\alerts\coords_13521_1038198_glad.csv
+2025-10-05 12:18:37,266 - EcoProfiler - INFO - [cli_runner.py:80] - Step 2: Searching company registries
+2025-10-05 12:18:37,267 - CompanyRegistry - INFO - [registry_search.py:21] - Starting Wikidata company search
+2025-10-05 12:19:38,456 - CompanyRegistry - ERROR - [registry_search.py:87] - WIKIDATA_QUERY_ERROR: HTTP Error 429: Too Many Requests
+2025-10-05 12:19:38,481 - CompanyRegistry - INFO - [registry_search.py:26] - Starting GLEIF LEI resolution
+2025-10-05 12:19:41,697 - CompanyRegistry - INFO - [registry_search.py:30] - Starting OpenSanctions screening
+2025-10-05 12:19:42,349 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for PT Astra International: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=PT+Astra+International&dataset=all
+2025-10-05 12:19:42,866 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for PT Kalbe Farma: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=PT+Kalbe+Farma&dataset=all
+2025-10-05 12:19:43,333 - CompanyRegistry - WARNING - [registry_search.py:174] - OPENSANCTIONS_ERROR for PT Perkebunan Nusantara: 404 Client Error: Not Found for url: https://api.opensanctions.org/search?q=PT+Perkebunan+Nusantara&dataset=all
+2025-10-05 12:19:43,348 - CompanyRegistry - INFO - [registry_search.py:34] - Starting OSM business search
+2025-10-05 12:19:46,860 - CompanyRegistry - INFO - [registry_search.py:218] - OSM_QUERY_SENT - OSM_RESULT_COUNT:7048
+2025-10-05 12:19:46,865 - CompanyRegistry - INFO - [registry_search.py:37] - COMPANY_SEARCH_COMPLETE - Found 3 companies, 7048 OSM businesses
+2025-10-05 12:19:47,296 - CompanyRegistry - INFO - [registry_search.py:277] - COMPANY_DATA_SAVED - Companies: data\companies\coords_13521_1038198_companies.json, OSM: data\companies\coords_13521_1038198_osm.json
+2025-10-05 12:19:47,296 - EcoProfiler - INFO - [cli_runner.py:85] - Step 3: Scraping Reddit for environmental discussions
+2025-10-05 12:19:47,296 - RedditScraper - INFO - [reddit_scraper.py:45] - Starting Reddit search for: coordinates 1.3521,103.8198
+2025-10-05 12:19:47,296 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: coordinates 1.3521,103.8198
+2025-10-05 12:19:48,321 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:19:48,321 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:19:48,321 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:19:48,321 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: coordinates 1.3521,103.8198
+2025-10-05 12:19:48,327 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: coordinates 1.3521,103.8198
+2025-10-05 12:19:54,420 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:19:55,436 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: Indonesia environment
+2025-10-05 12:19:56,580 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:19:56,580 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:19:56,580 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:19:56,587 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: Indonesia environment
+2025-10-05 12:19:56,587 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: Indonesia environment
+2025-10-05 12:20:02,111 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:20:03,120 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: Sumatra forest
+2025-10-05 12:20:04,079 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:20:04,079 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:20:04,079 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:20:04,085 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: Sumatra forest
+2025-10-05 12:20:04,085 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: Sumatra forest
+2025-10-05 12:20:09,784 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:20:10,791 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: palm oil coordinates 1.3521,103.8198
+2025-10-05 12:20:11,790 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:20:11,790 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:20:11,790 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:20:11,799 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: palm oil coordinates 1.3521,103.8198
+2025-10-05 12:20:11,799 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: palm oil coordinates 1.3521,103.8198
+2025-10-05 12:20:17,364 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:20:18,368 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: deforestation Indonesia
+2025-10-05 12:20:19,331 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:20:19,331 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:20:19,340 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:20:19,340 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: deforestation Indonesia
+2025-10-05 12:20:19,340 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: deforestation Indonesia
+2025-10-05 12:20:24,872 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:20:25,885 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: climate change coordinates 1.3521,103.8198
+2025-10-05 12:20:26,856 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:20:26,858 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:20:26,858 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:20:26,858 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: climate change coordinates 1.3521,103.8198
+2025-10-05 12:20:26,858 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: climate change coordinates 1.3521,103.8198
+2025-10-05 12:20:33,020 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:20:34,029 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: wildlife coordinates 1.3521,103.8198
+2025-10-05 12:20:34,988 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:20:34,991 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:20:34,991 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:20:34,994 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: wildlife coordinates 1.3521,103.8198
+2025-10-05 12:20:34,994 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: wildlife coordinates 1.3521,103.8198
+2025-10-05 12:20:40,527 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:20:41,535 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: conservation coordinates 1.3521,103.8198
+2025-10-05 12:20:42,743 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:20:42,750 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:20:42,753 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:20:42,753 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: conservation coordinates 1.3521,103.8198
+2025-10-05 12:20:42,753 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: conservation coordinates 1.3521,103.8198
+2025-10-05 12:20:48,559 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:20:49,566 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: rainforest coordinates 1.3521,103.8198
+2025-10-05 12:20:50,524 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:20:50,532 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:20:50,532 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:20:50,537 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: rainforest coordinates 1.3521,103.8198
+2025-10-05 12:20:50,538 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: rainforest coordinates 1.3521,103.8198
+2025-10-05 12:20:56,175 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:20:57,189 - RedditScraper - INFO - [reddit_scraper.py:64] - Searching for: biodiversity coordinates 1.3521,103.8198
+2025-10-05 12:20:58,182 - pmaw.PushshiftAPIBase - WARNING - [PushshiftAPIBase.py:119] - Not all PushShift shards are active. Query results may be incomplete.
+2025-10-05 12:20:58,188 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:294] - 50 result(s) not found in Pushshift
+2025-10-05 12:20:58,193 - pmaw.PushshiftAPIBase - INFO - [PushshiftAPIBase.py:297] - 0 total available
+2025-10-05 12:20:58,195 - RedditScraper - INFO - [reddit_scraper.py:114] - PMAW_QUERY_SUCCESS - Found 0 posts for: biodiversity coordinates 1.3521,103.8198
+2025-10-05 12:20:58,195 - RedditScraper - INFO - [reddit_scraper.py:124] - Trying direct PRAW search for: biodiversity coordinates 1.3521,103.8198
+2025-10-05 12:21:03,621 - RedditScraper - INFO - [reddit_scraper.py:159] - PRAW_DIRECT_SEARCH - Found 0 posts
+2025-10-05 12:21:04,628 - RedditScraper - INFO - [reddit_scraper.py:81] - No Reddit posts found, creating sample data
+2025-10-05 12:21:04,629 - RedditScraper - INFO - [reddit_scraper.py:85] - Enriching posts with PRAW
+2025-10-05 12:21:04,632 - RedditScraper - INFO - [reddit_scraper.py:239] - PRAW_ENRICH_SUCCESS - Enriched 3 posts
+2025-10-05 12:21:04,634 - RedditScraper - INFO - [reddit_scraper.py:89] - Analyzing post sentiment
+2025-10-05 12:21:04,925 - RedditScraper - INFO - [reddit_scraper.py:92] - REDDIT_SEARCH_COMPLETE - Found 3 unique posts
+2025-10-05 12:21:04,926 - RedditScraper - INFO - [reddit_scraper.py:373] - REDDIT_DATA_SAVED: data\reddit\coords_13521_1038198_praw_enriched.json
+2025-10-05 12:21:04,933 - EcoProfiler - INFO - [cli_runner.py:120] - Step 5: Generating PDF report
+2025-10-05 12:21:04,936 - PDFGenerator - INFO - [generate_pdf.py:79] - Starting PDF report generation for coords_13521_1038198
+2025-10-05 12:21:05,604 - PDFGenerator - INFO - [generate_pdf.py:126] - PDF_REPORT_GENERATED: data\reports\coords_13521_1038198_report_20251005_122104.pdf
+2025-10-05 12:21:05,606 - EcoProfiler - INFO - [cli_runner.py:123] - PDF report generated: data\reports\coords_13521_1038198_report_20251005_122104.pdf
+2025-10-05 12:21:05,614 - EcoProfiler - INFO - [cli_runner.py:127] - EcoProfiler analysis complete for coords_13521_1038198

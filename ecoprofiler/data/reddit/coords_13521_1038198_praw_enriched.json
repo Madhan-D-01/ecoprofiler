@@ -1,0 +1,81 @@
+[
+  {
+    "id": "sample1",
+    "title": "Deforestation concerns in coordinates 1.3521,103.8198",
+    "selftext": "Recent reports show increased deforestation activity in the coordinates 1.3521,103.8198 region. Local communities are concerned about environmental impacts and loss of biodiversity. Satellite imagery reveals significant forest cover loss over the past year.",
+    "subreddit": "environment",
+    "created_utc": "1759042264.629648",
+    "score": 45,
+    "num_comments": 12,
+    "upvote_ratio": 0.85,
+    "url": "https://reddit.com/r/environment/sample1",
+    "author": "EnvironmentalWatch",
+    "permalink": "/r/environment/comments/sample1",
+    "top_comments": [
+      {
+        "body": "This is really concerning. We need more international attention on this issue.",
+        "score": 15,
+        "author": "ClimateActivist"
+      },
+      {
+        "body": "The palm oil industry is largely responsible for this deforestation.",
+        "score": 8,
+        "author": "EcoResearcher"
+      }
+    ],
+    "sentiment": 0.03125,
+    "subjectivity": 0.34375,
+    "avg_comment_sentiment": 0.21666666666666667
+  },
+  {
+    "id": "sample2",
+    "title": "Wildlife protection efforts in coordinates 1.3521,103.8198 show promising results",
+    "selftext": "Conservation groups are working to protect endangered species in coordinates 1.3521,103.8198. New initiatives show promising results in preserving tiger and orangutan habitats.",
+    "subreddit": "conservation",
+    "created_utc": "1759387864.629648",
+    "score": 23,
+    "num_comments": 5,
+    "upvote_ratio": 0.92,
+    "url": "https://reddit.com/r/conservation/sample2",
+    "author": "WildlifeProtector",
+    "permalink": "/r/conservation/comments/sample2",
+    "top_comments": [
+      {
+        "body": "Great to see positive conservation news for a change!",
+        "score": 12,
+        "author": "HopeForNature"
+      }
+    ],
+    "sentiment": 0.1787878787878788,
+    "subjectivity": 0.48484848484848486,
+    "avg_comment_sentiment": 0.5420454545454545
+  },
+  {
+    "id": "sample3",
+    "title": "Local communities in coordinates 1.3521,103.8198 fight against illegal mining",
+    "selftext": "Indigenous communities in coordinates 1.3521,103.8198 are organizing against illegal mining operations that threaten their lands and water sources.",
+    "subreddit": "worldnews",
+    "created_utc": "1759560664.629648",
+    "score": 67,
+    "num_comments": 23,
+    "upvote_ratio": 0.88,
+    "url": "https://reddit.com/r/worldnews/sample3",
+    "author": "GlobalObserver",
+    "permalink": "/r/worldnews/comments/sample3",
+    "top_comments": [
+      {
+        "body": "We need to support these communities. Corporate greed cannot be allowed to destroy our planet.",
+        "score": 25,
+        "author": "SocialJusticeWarrior"
+      },
+      {
+        "body": "This is happening all over the developing world. International regulations are needed.",
+        "score": 18,
+        "author": "PolicyExpert"
+      }
+    ],
+    "sentiment": -0.3333333333333333,
+    "subjectivity": 0.3333333333333333,
+    "avg_comment_sentiment": -0.05
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "name": "PT Astra International",
+    "wikidata_id": "Q2867090",
+    "industry": "Conglomerate",
+    "founded": "1957-02-20",
+    "location": "Jakarta",
+    "source": "gleif",
+    "sanctioned": false,
+    "shell_company": false,
+    "lei": "529900L49TRJOMG4DK47",
+    "legal_name": "PT Astra International TBK",
+    "legal_address": {
+      "language": "id-ID",
+      "addressLines": [
+        "Jl. Gaya Motor Raya No. 8, Sunter II"
+      ],
+      "addressNumber": null,
+      "addressNumberWithinBuilding": null,
+      "mailRouting": null,
+      "city": "Jakarta",
+      "region": "ID-JW",
+      "country": "ID",
+      "postalCode": "14330"
+    },
+    "registration_date": "2018-11-29T10:10:23Z",
+    "status": null
+  },
+  {
+    "name": "PT Kalbe Farma",
+    "wikidata_id": "Q6351158",
+    "industry": "Pharmaceutical",
+    "founded": "1966-09-10",
+    "location": "Jakarta",
+    "source": "sample_data",
+    "sanctioned": false,
+    "shell_company": false
+  },
+  {
+    "name": "PT Perkebunan Nusantara",
+    "wikidata_id": "Q12512345",
+    "industry": "Agriculture",
+    "founded": "1996-03-11",
+    "location": "Medan",
+    "source": "sample_data",
+    "sanctioned": false,
+    "shell_company": true
+  }
+]

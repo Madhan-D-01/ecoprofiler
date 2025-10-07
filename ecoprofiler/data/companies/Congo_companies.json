@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Q20427814",
+    "wikidata_id": "Q20427814",
+    "industry": "Unknown",
+    "founded": "",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "We Can Be Winners",
+    "wikidata_id": "Q112387979",
+    "industry": "Unknown",
+    "founded": "",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "East Asian Community",
+    "wikidata_id": "Q1052222",
+    "industry": "Unknown",
+    "founded": "",
+    "location": "East Asia",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "MNC Group",
+    "wikidata_id": "Q37162240",
+    "industry": "Unknown",
+    "founded": "",
+    "location": "",
+    "source": "gleif",
+    "lei": "8156009CA217A29E7179",
+    "legal_name": "MNC HOLDING GROUP S.R.L.",
+    "legal_address": {
+      "language": "it-IT",
+      "addressLines": [
+        "VIA GAUSLINO, 30/2"
+      ],
+      "addressNumber": null,
+      "addressNumberWithinBuilding": null,
+      "mailRouting": null,
+      "city": "PIOVE DI SACCO",
+      "region": "IT-PD",
+      "country": "IT",
+      "postalCode": "35028"
+    },
+    "registration_date": "2021-11-12T07:24:30Z",
+    "status": null,
+    "sanctioned": false
+  },
+  {
+    "name": "Correctional Institution in Indonesia",
+    "wikidata_id": "Q20427548",
+    "industry": "Unknown",
+    "founded": "",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "Maros Railway Workshop",
+    "wikidata_id": "Q109439325",
+    "industry": "Unknown",
+    "founded": "",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "Center for Indonesia’s Strategic Development Initiatives",
+    "wikidata_id": "Q131062330",
+    "industry": "Unknown",
+    "founded": "2010-01-01T00:00:00Z",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "Izzah TV",
+    "wikidata_id": "Q130348451",
+    "industry": "Unknown",
+    "founded": "2019-12-01T00:00:00Z",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "Voice of Indonesia",
+    "wikidata_id": "Q1063351",
+    "industry": "Unknown",
+    "founded": "1945-01-01T00:00:00Z",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "Blooming Lotus Yoga",
+    "wikidata_id": "Q28214772",
+    "industry": "yoga",
+    "founded": "2004-01-01T00:00:00Z",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "Bank Central Asia",
+    "wikidata_id": "Q806626",
+    "industry": "economics of banking",
+    "founded": "1955-10-10T00:00:00Z",
+    "location": "",
+    "source": "gleif",
+    "lei": "254900BR956G2OHVOM21",
+    "legal_name": "PT Bank Central Asia Tbk.",
+    "legal_address": {
+      "language": "en",
+      "addressLines": [
+        "Menara BCA - Grand Indonesia",
+        "Jl. MH Thamrin No. 1"
+      ],
+      "addressNumber": null,
+      "addressNumberWithinBuilding": null,
+      "mailRouting": null,
+      "city": "Jakarta",
+      "region": null,
+      "country": "ID",
+      "postalCode": "10310"
+    },
+    "registration_date": "2018-01-02T00:30:03Z",
+    "status": null,
+    "sanctioned": false
+  },
+  {
+    "name": "Bank Central Asia",
+    "wikidata_id": "Q806626",
+    "industry": "financial services",
+    "founded": "1955-10-10T00:00:00Z",
+    "location": "",
+    "source": "gleif",
+    "lei": "254900BR956G2OHVOM21",
+    "legal_name": "PT Bank Central Asia Tbk.",
+    "legal_address": {
+      "language": "en",
+      "addressLines": [
+        "Menara BCA - Grand Indonesia",
+        "Jl. MH Thamrin No. 1"
+      ],
+      "addressNumber": null,
+      "addressNumberWithinBuilding": null,
+      "mailRouting": null,
+      "city": "Jakarta",
+      "region": null,
+      "country": "ID",
+      "postalCode": "10310"
+    },
+    "registration_date": "2018-01-02T00:30:03Z",
+    "status": null,
+    "sanctioned": false
+  },
+  {
+    "name": "Bank Mandiri",
+    "wikidata_id": "Q806639",
+    "industry": "economics of banking",
+    "founded": "1998-10-02T00:00:00Z",
+    "location": "",
+    "source": "gleif",
+    "lei": "2138001M5OB5OE11NS50",
+    "legal_name": "BANK MANDIRI (EUROPE) LIMITED",
+    "legal_address": {
+      "language": "en",
+      "addressLines": [
+        "4 Thomas More Square"
+      ],
+      "addressNumber": null,
+      "addressNumberWithinBuilding": null,
+      "mailRouting": null,
+      "city": "London",
+      "region": "GB-LND",
+      "country": "GB",
+      "postalCode": "E1W 1YW"
+    },
+    "registration_date": "2014-12-11T00:00:00Z",
+    "status": null,
+    "sanctioned": false
+  },
+  {
+    "name": "Bank Mandiri",
+    "wikidata_id": "Q806639",
+    "industry": "financial services",
+    "founded": "1998-10-02T00:00:00Z",
+    "location": "",
+    "source": "gleif",
+    "lei": "2138001M5OB5OE11NS50",
+    "legal_name": "BANK MANDIRI (EUROPE) LIMITED",
+    "legal_address": {
+      "language": "en",
+      "addressLines": [
+        "4 Thomas More Square"
+      ],
+      "addressNumber": null,
+      "addressNumberWithinBuilding": null,
+      "mailRouting": null,
+      "city": "London",
+      "region": "GB-LND",
+      "country": "GB",
+      "postalCode": "E1W 1YW"
+    },
+    "registration_date": "2014-12-11T00:00:00Z",
+    "status": null,
+    "sanctioned": false
+  },
+  {
+    "name": "Bank Mandiri",
+    "wikidata_id": "Q806639",
+    "industry": "financial sector",
+    "founded": "1998-10-02T00:00:00Z",
+    "location": "",
+    "source": "gleif",
+    "lei": "2138001M5OB5OE11NS50",
+    "legal_name": "BANK MANDIRI (EUROPE) LIMITED",
+    "legal_address": {
+      "language": "en",
+      "addressLines": [
+        "4 Thomas More Square"
+      ],
+      "addressNumber": null,
+      "addressNumberWithinBuilding": null,
+      "mailRouting": null,
+      "city": "London",
+      "region": "GB-LND",
+      "country": "GB",
+      "postalCode": "E1W 1YW"
+    },
+    "registration_date": "2014-12-11T00:00:00Z",
+    "status": null,
+    "sanctioned": false
+  },
+  {
+    "name": "IFCC-KSK",
+    "wikidata_id": "Q5970644",
+    "industry": "Unknown",
+    "founded": "",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "Indonesian Halal Authority",
+    "wikidata_id": "Q56089573",
+    "industry": "Unknown",
+    "founded": "2014-01-01T00:00:00Z",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "Bank Indonesia",
+    "wikidata_id": "Q1906161",
+    "industry": "Unknown",
+    "founded": "1953-01-01T00:00:00Z",
+    "location": "",
+    "source": "gleif",
+    "lei": "OUB893BYM4R6CVFWWL56",
+    "legal_name": "Bank Indonesia",
+    "legal_address": {
+      "language": "en",
+      "addressLines": [
+        "Sjafruddin Prawiranegara Tower",
+        "Jalan M.H. Thamrin No. 2"
+      ],
+      "addressNumber": null,
+      "addressNumberWithinBuilding": null,
+      "mailRouting": null,
+      "city": "Jakarta",
+      "region": "ID-JK",
+      "country": "ID",
+      "postalCode": "10350"
+    },
+    "registration_date": "2012-11-28T12:01:00Z",
+    "status": null,
+    "sanctioned": false
+  },
+  {
+    "name": "Haga Bank",
+    "wikidata_id": "Q2649947",
+    "industry": "Unknown",
+    "founded": "",
+    "location": "",
+    "source": "wikidata",
+    "sanctioned": false
+  },
+  {
+    "name": "DENIS",
+    "wikidata_id": "Q2673877",
+    "industry": "Unknown",
+    "founded": "1936-01-01T00:00:00Z",
+    "location": "",
+    "source": "gleif",
+    "lei": "969500G1DYVPINWDW882",
+    "legal_name": "DENIS",
+    "legal_address": {
+      "language": "fr",
+      "addressLines": [
+        "52 RUE NICOLAS COLSON",
+        "MR HAWNER KARL"
+      ],
+      "addressNumber": null,
+      "addressNumberWithinBuilding": null,
+      "mailRouting": null,
+      "city": "FREYMING-MERLEBACH",
+      "region": null,
+      "country": "FR",
+      "postalCode": "57800"
+    },
+    "registration_date": "2025-02-06T20:55:30Z",
+    "status": null,
+    "sanctioned": false
+  }
+]
